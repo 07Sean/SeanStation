@@ -1,34 +1,61 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
-  "subPackages": [{
-    "root": "testpage",
-    "name": "testpage",
     "pages": [
-      "pages/index/index",
-      "pages/test/index"
-    ]
-  }],
-  "tabBar": {
-    "list": [
-      {
-      "pagePath": "pages/index/index",
-      "text": "首页"
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/tally/tally",
+        "pages/Chatroom/Chatroom",
+        "pages/blacklist/blacklist",
+        "pages/toilet/toilet",
+        "pages/my/my"
+    ],
+    "subPackages": [
+        {
+            "root": "Chatroom",
+            "name": "Chatroom",
+            "pages": []
+        }
+    ],
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/assets/icon/indexb.png",
+                "selectedIconPath": "/assets/icon/index.png"
+            },
+            {
+                "pagePath": "pages/tally/tally",
+                "text": "记账",
+                "iconPath": "/assets/icon/booksIcon.png",
+                "selectedIconPath": "/assets/icon/booksIcon.png"
+            },
+            {
+                "pagePath": "pages/Chatroom/Chatroom",
+                "text": "摸鱼聊天室",
+                "iconPath": "/assets/icon/fishIcon.png",
+                "selectedIconPath": "/assets/icon/fishIcon.png"
+            },
+            {
+                "pagePath": "pages/blacklist/blacklist",
+                "text": "公司黑名单",
+                "iconPath": "/assets/icon/blackList.png",
+                "selectedIconPath": "/assets/icon/blackListACT.png"
+            },
+            {
+                "pagePath": "pages/toilet/toilet",
+                "text": "滴滴如厕",
+                "iconPath": "/assets/icon/WC.png",
+                "selectedIconPath": "/assets/icon/WC.png"
+            }
+     
+        ]
     },
-      {
-      "pagePath": "pages/logs/logs",
-      "text": "test"
-    }
-  ]
-  },
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
 }

@@ -3,5 +3,6 @@
     "projectname": "SeanSation",
     "setting": {
         "compileHotReLoad": true
-    }
+    },
+    "condition": {}
 }
