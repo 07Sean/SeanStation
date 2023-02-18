@@ -5,6 +5,10 @@ Page({
      * 页面的初始数据
      */
     data: {
+        map:{
+            latitude:0,
+            longitude:0,
+        }
 
     },
 
@@ -12,7 +16,23 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad(options) {
-
+        let that = this
+        wx.getLocation({
+            type: 'gcj02', //返回可以用于 wx.openLocation 的经纬度
+            success (res) {
+              const latitude = res.latitude
+              const longitude = res.longitude
+              that.setData({
+                'map.latitude':latitude,
+                'map.longitude':longitude
+              })
+            //   wx.openLocation({
+            //     latitude,
+            //     longitude,
+            //     scale: 18
+            //   })
+            }
+           })
     },
 
     /**
