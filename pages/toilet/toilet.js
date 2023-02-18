@@ -1,4 +1,4 @@
-// testpage/pages/test/index.js
+// pages/toilet/toilet.js
 Page({
 
     /**

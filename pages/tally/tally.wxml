@@ -1,0 +1,5 @@
+<!--pages/tally/tally.wxml-->
+<van-cell-group inset>
+  <van-cell title="今天又花钱了" value="100￥" />
+  <van-cell title="要不要存钱" value="0.00￥" label="存得下钱吗" />
+</van-cell-group>

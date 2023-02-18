@@ -1,4 +1,4 @@
-// testpage/pages/index/index.js
+// pages/blacklist/blacklist.js
 Page({
 
     /**
