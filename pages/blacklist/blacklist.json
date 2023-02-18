@@ -1,4 +1,6 @@
 {
-    "usingComponents": {},
+    "usingComponents": {
+        "van-empty": "@vant/weapp/empty/index"
+    },
     "navigationBarTitleText": "公司黑名单"
 }

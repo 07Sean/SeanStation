@@ -1,2 +1,2 @@
 <!--pages/toilet/toilet.wxml-->
-<text>pages/toilet/toilet.wxml</text>
+<map longitude="" latitude="" class="map"/>

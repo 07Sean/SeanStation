@@ -1,2 +1,2 @@
 <!--pages/Chatroom/Chatroom.wxml-->
-<text>pages/Chatroom/Chatroom.wxml</text>
+<van-empty description="稍后开发" />

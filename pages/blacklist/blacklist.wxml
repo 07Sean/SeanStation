@@ -1,2 +1,2 @@
 <!--pages/blacklist/blacklist.wxml-->
-<text>pages/blacklist/blacklist.wxml</text>
+<van-empty description="晚些时候开发" />

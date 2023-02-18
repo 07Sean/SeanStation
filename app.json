@@ -16,6 +16,8 @@
         }
     ],
     "tabBar": {
+        "selectedColor": "#3892cb",
+        "backgroundColor":"#f7f8fa",
         "list": [
             {
                 "pagePath": "pages/index/index",
@@ -52,7 +54,7 @@
     },
     "window": {
         "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
+        "navigationBarBackgroundColor": "#f7f8fa",
         "navigationBarTitleText": "Weixin",
         "navigationBarTextStyle": "black"
     },
