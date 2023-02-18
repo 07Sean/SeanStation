@@ -1,2 +1,2 @@
 <!--pages/toilet/toilet.wxml-->
-<map longitude="{{map.longitude}}" latitude="{{map.latitude}}" class="map"/>
+<map longitude="" latitude="" class="map"/>

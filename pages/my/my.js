@@ -1,4 +1,4 @@
-// pages/toilet/toilet.js
+// pages/my/my.js
 Page({
 
     /**
